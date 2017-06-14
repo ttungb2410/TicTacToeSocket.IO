@@ -7,21 +7,25 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		125599C9FC5343AFF58489CA /* Pods_DemoNodeSocketIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 62C652C59A7DC06C76A83D53 /* Pods_DemoNodeSocketIO.framework */; };
 		C7BADE911EED945D007B8C96 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7BADE901EED945D007B8C96 /* AppDelegate.swift */; };
 		C7BADE931EED945D007B8C96 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7BADE921EED945D007B8C96 /* ViewController.swift */; };
-		C7BADE961EED945D007B8C96 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C7BADE941EED945D007B8C96 /* Main.storyboard */; };
-		C7BADE981EED945D007B8C96 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C7BADE971EED945D007B8C96 /* Assets.xcassets */; };
 		C7BADE9B1EED945D007B8C96 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C7BADE991EED945D007B8C96 /* LaunchScreen.storyboard */; };
+		C7F80C001EEE39E90061CAA7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C7F80BFF1EEE39E90061CAA7 /* Assets.xcassets */; };
+		C7F80C021EEE3A4C0061CAA7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C7F80C011EEE3A4C0061CAA7 /* Main.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		36BB0B5A3859D5E26A586931 /* Pods-DemoNodeSocketIO.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DemoNodeSocketIO.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DemoNodeSocketIO/Pods-DemoNodeSocketIO.debug.xcconfig"; sourceTree = "<group>"; };
+		62C652C59A7DC06C76A83D53 /* Pods_DemoNodeSocketIO.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DemoNodeSocketIO.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C2948FF8044B172DB55C525D /* Pods-DemoNodeSocketIO.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DemoNodeSocketIO.release.xcconfig"; path = "Pods/Target Support Files/Pods-DemoNodeSocketIO/Pods-DemoNodeSocketIO.release.xcconfig"; sourceTree = "<group>"; };
 		C7BADE8D1EED945D007B8C96 /* DemoNodeSocketIO.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DemoNodeSocketIO.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C7BADE901EED945D007B8C96 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C7BADE921EED945D007B8C96 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		C7BADE951EED945D007B8C96 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		C7BADE971EED945D007B8C96 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C7BADE9A1EED945D007B8C96 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C7BADE9C1EED945D007B8C96 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C7F80BFF1EEE39E90061CAA7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C7F80C011EEE3A4C0061CAA7 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +33,28 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				125599C9FC5343AFF58489CA /* Pods_DemoNodeSocketIO.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		974AEC752BFCBC6EB55A797E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				62C652C59A7DC06C76A83D53 /* Pods_DemoNodeSocketIO.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		C7BADE841EED945D007B8C96 = {
 			isa = PBXGroup;
 			children = (
 				C7BADE8F1EED945D007B8C96 /* DemoNodeSocketIO */,
 				C7BADE8E1EED945D007B8C96 /* Products */,
+				FA4642C268A61CD0F9906981 /* Pods */,
+				974AEC752BFCBC6EB55A797E /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,12 +71,21 @@
 			children = (
 				C7BADE901EED945D007B8C96 /* AppDelegate.swift */,
 				C7BADE921EED945D007B8C96 /* ViewController.swift */,
-				C7BADE941EED945D007B8C96 /* Main.storyboard */,
-				C7BADE971EED945D007B8C96 /* Assets.xcassets */,
 				C7BADE991EED945D007B8C96 /* LaunchScreen.storyboard */,
+				C7F80C011EEE3A4C0061CAA7 /* Main.storyboard */,
+				C7F80BFF1EEE39E90061CAA7 /* Assets.xcassets */,
 				C7BADE9C1EED945D007B8C96 /* Info.plist */,
 			);
 			path = DemoNodeSocketIO;
+			sourceTree = "<group>";
+		};
+		FA4642C268A61CD0F9906981 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				36BB0B5A3859D5E26A586931 /* Pods-DemoNodeSocketIO.debug.xcconfig */,
+				C2948FF8044B172DB55C525D /* Pods-DemoNodeSocketIO.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +95,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C7BADE9F1EED945D007B8C96 /* Build configuration list for PBXNativeTarget "DemoNodeSocketIO" */;
 			buildPhases = (
+				C7187B8A1AE85DD70D1DDC38 /* [CP] Check Pods Manifest.lock */,
 				C7BADE891EED945D007B8C96 /* Sources */,
 				C7BADE8A1EED945D007B8C96 /* Frameworks */,
 				C7BADE8B1EED945D007B8C96 /* Resources */,
+				DA8179609425A29FDB98000B /* [CP] Embed Pods Frameworks */,
+				337E56B927B66CA6D5B5B66F /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -124,13 +151,61 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C7F80C021EEE3A4C0061CAA7 /* Main.storyboard in Resources */,
 				C7BADE9B1EED945D007B8C96 /* LaunchScreen.storyboard in Resources */,
-				C7BADE981EED945D007B8C96 /* Assets.xcassets in Resources */,
-				C7BADE961EED945D007B8C96 /* Main.storyboard in Resources */,
+				C7F80C001EEE39E90061CAA7 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		337E56B927B66CA6D5B5B66F /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DemoNodeSocketIO/Pods-DemoNodeSocketIO-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C7187B8A1AE85DD70D1DDC38 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		DA8179609425A29FDB98000B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DemoNodeSocketIO/Pods-DemoNodeSocketIO-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		C7BADE891EED945D007B8C96 /* Sources */ = {
@@ -145,14 +220,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		C7BADE941EED945D007B8C96 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				C7BADE951EED945D007B8C96 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		C7BADE991EED945D007B8C96 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -259,10 +326,12 @@
 		};
 		C7BADEA01EED945D007B8C96 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 36BB0B5A3859D5E26A586931 /* Pods-DemoNodeSocketIO.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 7MRXJH2RYW;
 				INFOPLIST_FILE = DemoNodeSocketIO/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = vn.edu.ttung.DemoNodeSocketIO;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -272,10 +341,12 @@
 		};
 		C7BADEA11EED945D007B8C96 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C2948FF8044B172DB55C525D /* Pods-DemoNodeSocketIO.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 7MRXJH2RYW;
 				INFOPLIST_FILE = DemoNodeSocketIO/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = vn.edu.ttung.DemoNodeSocketIO;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -302,6 +373,7 @@
 				C7BADEA11EED945D007B8C96 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
